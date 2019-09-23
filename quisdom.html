@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>DOM removeChild () Method</h1>
+	<p>Sorting Algoritma</p>
+	<li id='sorting'>
+		<li>Insert sort</li>
+		<li>Merge Sort</li>
+		<li>Quick sort</li>
+	</li>
+	<button onclick="Hapusanakpertama()">Hapus</button>
+
+	<script>
+		function Hapusanakpertama() {
+			let lis=document.getElementById('sorting');
+			lis.removeChild(lis.childNodes[0]);
+		}
+	</script>
+
+</body>
+</html>

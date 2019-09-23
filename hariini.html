@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id='time'></p>
+
+	<script type="text/javascript">
+		function MyTimer() {
+			let obj=new Date();
+			let timestring=dateclass.toLocalTimeString();
+			document.getElementById('time').innerHTML=timestring;
+		}
+	</script>
+
+	setInterval(MyTimer,1000);
+
+</body>
+</html>
