@@ -1,0 +1,4 @@
+rencana konten
+-membuat file index
+-membuat crud dari aplikasi produk
+-membuat fronand
