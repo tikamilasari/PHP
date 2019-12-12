@@ -1,4 +1,8 @@
 rencana konten
 -membuat file index
 -membuat crud dari aplikasi produk
+ *crud untuk barang
+ *crud untuk penjualan
+ *crud untuk pembelian
+ *crud untuk stock
 -membuat fronand
